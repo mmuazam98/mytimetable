@@ -28,7 +28,7 @@ const Timetable = () => {
   let location = useLocation();
   const [timetable, setTimeTable] = useState([]);
   const showTimetable = () => {
-    const batch = parseInt(localStorage.getItem("batch"));
+    const batch = parseInt(localStorage.getItem("batch")) || 1;
     const dayOrder = parseInt(location.pathname[1]) || 1;
     console.log(dayOrder);
     console.log("Test");
