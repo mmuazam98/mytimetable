@@ -16,7 +16,8 @@ const useStyles = makeStyles((theme) => ({
 }));
 const ChooseBatch = (props) => {
   const classes = useStyles();
-  const [batch, setBatch] = useState(parseInt(localStorage.getItem("batch")));
+  const currBatch = localStorage.getItem("batch") || 1;
+  const [batch, setBatch] = useState(parseInt(currBatch));
 
   const handleChange = (event) => {
     setBatch(event.target.value);
