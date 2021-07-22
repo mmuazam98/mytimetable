@@ -37,6 +37,7 @@ const Timetable = () => {
   };
   useEffect(() => {
     showTimetable();
+    // eslint-disable-next-line
   }, [location]);
 
   const classes = useStyles();

@@ -58,6 +58,7 @@ const Navigation = () => {
         setActivePage();
       });
     });
+    // eslint-disable-next-line
   }, []);
   return (
     <>
