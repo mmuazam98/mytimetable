@@ -1,0 +1,20 @@
+footer {
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  font-size: 12px;
+}
+footer a {
+  margin-left: 10px;
+}
+footer svg {
+  width: 0.9em !important;
+  fill: var(--nav) !important;
+}
+@media (max-width: 767px) {
+  footer {
+    display: none;
+  }
+}

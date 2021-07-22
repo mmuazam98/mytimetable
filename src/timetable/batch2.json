@@ -1,0 +1,199 @@
+[
+  [
+    {
+      "slot": "9:00 - 10:40",
+      "subjectName": "Computer Networks",
+      "subjectCode": "18CSC302J",
+      "subjectSlot": "A",
+      "teacher": "Dr.S.Babu",
+      "teacherCode": 102457,
+      "category": "Professional Core",
+      "type": "Lab Based Theory",
+      "link": "https://meet.google.com/lookup/he7cvd2dbq?authuser=1&hs=179"
+    },
+    {
+      "slot": "10:50 - 12:30",
+      "subjectName": "Formal Language and Automata",
+      "subjectCode": "18CSC301T",
+      "subjectSlot": "F",
+      "teacher": "Dr.P.Velmurugan",
+      "teacherCode": 102679,
+      "category": "Professional Core",
+      "type": "Theory",
+      "link": "https://meet.google.com/lookup/goeofogs45?authuser=1&hs=179"
+    }
+  ],
+  [
+    {
+      "slot": "9:00 - 10:40",
+      "subjectName": "Data Mining and Analytics",
+      "subjectCode": "18CSE355T",
+      "subjectSlot": "B",
+      "teacher": "Ms.Ida Seraphim",
+      "teacherCode": 101562,
+      "category": "Professional Elective",
+      "type": "Theory",
+      "link": "https://meet.google.com/lookup/c727on3jk5"
+    },
+    {
+      "slot": "10:50 - 12:30",
+      "subjectName": "Smart Sensor Systems",
+      "subjectCode": "18NTO308T",
+      "subjectSlot": "G",
+      "teacher": "Dr. M. Renilkumar",
+      "teacherCode": 102507,
+      "category": "Open Elective",
+      "type": "Theory",
+      "link": "https://meet.google.com/lookup/e3riecd3ev"
+    },
+    {
+      "slot": "1:20 - 2:10",
+      "subjectName": "Neuro Fuzzy and Genetic Programming",
+      "subjectCode": "18CSE352T",
+      "subjectSlot": "D",
+      "teacher": "Ms.M.Harini",
+      "teacherCode": 102230,
+      "category": "Professional Elective",
+      "type": "Theory",
+      "link": "https://meet.google.com/lookup/bk3idakpko"
+    },
+    {
+      "slot": "2:10 - 3:50",
+      "subjectName": "Discrete Mathematics for Engineers",
+      "subjectCode": "18MAB302T",
+      "subjectSlot": "C",
+      "teacher": "Dr.G.Vijayalakshmi",
+      "teacherCode": 100881,
+      "category": "Basic Science",
+      "type": "Theory",
+      "link": "https://meet.google.com/lookup/glq7j45ejj"
+    }
+  ],
+  [
+    {
+      "slot": "10:50 - 11:40",
+      "subjectName": "Computer Networks",
+      "subjectCode": "18CSC302J",
+      "teacher": "Dr.S.Babu",
+      "subjectSlot": "A",
+      "teacherCode": 102457,
+      "category": "Professional Core",
+      "type": "Lab Based Theory",
+      "link": "https://meet.google.com/lookup/he7cvd2dbq"
+    },
+    {
+      "slot": "11:40 - 12:30",
+      "subjectName": "Indian Traditional Knowledge",
+      "subjectCode": "18LEM109T",
+      "subjectSlot": "D",
+      "teacher": "Dr.S.Babu",
+      "teacherCode": 102457,
+      "category": "Mandatory",
+      "type": "Theory",
+      "link": "https://meet.google.com/lookup/bwws63kzrt"
+    },
+    {
+      "slot": "1:20 - 2:10",
+      "subjectName": "Data Mining and Analytics",
+      "subjectCode": "18CSE355T",
+      "subjectSlot": "B",
+      "teacher": "Ms.Ida Seraphim",
+      "teacherCode": 101562,
+      "category": "Professional Elective",
+      "type": "Theory",
+      "link": "https://meet.google.com/lookup/c727on3jk5"
+    },
+    {
+      "slot": "2:10 - 3:50",
+      "subjectName": "Computer Networks",
+      "subjectCode": "18CSC302J",
+      "subjectSlot": "P1 - P2",
+      "teacher": "Dr.S.Babu",
+      "teacherCode": 102457,
+      "category": "Professional Core",
+      "type": "Lab Based Theory",
+      "link": "https://meet.google.com/lookup/chckb6cu3w?authuser=1&hs=179"
+    }
+  ],
+  [
+    {
+      "slot": "9:00 - 10:40",
+      "subjectName": "Neuro Fuzzy and Genetic Programming",
+      "subjectCode": "18CSE352T",
+      "subjectSlot": "D",
+      "teacher": "Ms.M.Harini",
+      "teacherCode": 102230,
+      "category": "Professional Elective",
+      "type": "Theory",
+      "link": "https://meet.google.com/lookup/bk3idakpko"
+    },
+    {
+      "slot": "10:50 - 11:40",
+      "subjectName": "Data Mining and Analytics",
+      "subjectCode": "18CSE355T",
+      "subjectSlot": "B",
+      "teacher": "Ms.Ida Seraphim",
+      "teacherCode": 101562,
+      "category": "Professional Elective",
+      "type": "Theory",
+      "link": "https://meet.google.com/lookup/c727on3jk5"
+    },
+    {
+      "slot": "1:20 - 2:10",
+      "subjectName": "Smart Sensor Systems",
+      "subjectCode": "18NTO308T",
+      "subjectSlot": "G",
+      "teacher": "Dr. M. Renilkumar",
+      "teacherCode": 102507,
+      "category": "Open Elective",
+      "type": "Theory",
+      "link": "https://meet.google.com/lookup/e3riecd3ev"
+    },
+    {
+      "slot": "2:10 - 3:00",
+      "subjectName": "Discrete Mathematics for Engineers",
+      "subjectCode": "18MAB302T",
+      "subjectSlot": "C",
+      "teacher": "Dr.G.Vijayalakshmi",
+      "teacherCode": 100881,
+      "category": "Basic Science",
+      "type": "Theory",
+      "link": "https://meet.google.com/lookup/glq7j45ejj"
+    }
+  ],
+  [
+    {
+      "slot": "9:00 - 10:40",
+      "subjectName": "Analytical and Logical Thinking Skills",
+      "subjectCode": "18PDM301L",
+      "subjectSlot": "E",
+      "teacher": "Dr. M. Sneha Latha",
+      "teacherCode": 102287,
+      "category": "Mandatory",
+      "type": "Practical",
+      "link": "https://meet.google.com/lookup/ewzd6sdk4c"
+    },
+    {
+      "slot": "10:50 - 11:40",
+      "subjectName": "Discrete Mathematics for Engineers",
+      "subjectCode": "18MAB302T",
+      "subjectSlot": "C",
+      "teacher": "Dr.G.Vijayalakshmi",
+      "teacherCode": 100881,
+      "category": "Basic Science",
+      "type": "Theory",
+      "link": "https://meet.google.com/lookup/glq7j45ejj"
+    },
+    {
+      "slot": "11:40 - 12:30",
+      "subjectName": "Formal Language and Automata",
+      "subjectCode": "18CSC301T",
+      "subjectSlot": "F",
+      "teacher": "Dr.P.Velmurugan",
+      "teacherCode": 102679,
+      "category": "Professional Core",
+      "type": "Theory",
+      "link": "https://meet.google.com/lookup/goeofogs45"
+    }
+  ]
+]
