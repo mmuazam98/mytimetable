@@ -46,7 +46,7 @@ const Timetable = () => {
       <div className="container">
         <ChooseBatch showTimetable={showTimetable} />
         <div className="github">
-          <a href="https://github.com/mmuazam98/timetable" target="_blank" rel="noreferrer">
+          <a href="https://github.com/mmuazam98/mytimetable" target="_blank" rel="noreferrer">
             <GitHubIcon />
           </a>
         </div>

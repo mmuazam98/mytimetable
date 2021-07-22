@@ -4,7 +4,7 @@ import "../css/Footer.css";
 const Footer = () => {
   return (
     <footer>
-      <a href="https://github.com/mmuazam98/timetable" target="_blank" rel="noreferrer">
+      <a href="https://github.com/mmuazam98/mytimetable" target="_blank" rel="noreferrer">
         <GitHubIcon />
       </a>
     </footer>
