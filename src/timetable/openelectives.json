@@ -13,10 +13,20 @@
     "subjectName": "Smart Sensor Systems",
     "subjectCode": "18NTO308T",
     "subjectSlot": "G",
-    "teacher": "Dr. M. Renilkumar",
+    "teacher": "Dr.M.Renilkumar",
     "teacherCode": 102507,
     "category": "Open Elective",
     "type": "Theory",
     "link": "https://meet.google.com/lookup/e3riecd3ev"
+  },
+  {
+    "subjectName": "B2B Marketing",
+    "subjectCode": "18MBO406T",
+    "subjectSlot": "G",
+    "teacher": "Dr.Densingh Joshua",
+    "teacherCode": 17000100,
+    "category": "Open Elective",
+    "type": "Theory",
+    "link": "https://meet.google.com/lookup/fmmhjsuipj"
   }
 ]

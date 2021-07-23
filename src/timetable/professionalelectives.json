@@ -10,6 +10,16 @@
     "link": "https://meet.google.com/lookup/hkhj4slgjo"
   },
   {
+    "subjectName": "Neuro Fuzzy and Genetic Programming",
+    "subjectCode": "18CSE352T",
+    "subjectSlot": "D",
+    "teacher": "Ms.M.Harini",
+    "teacherCode": 102230,
+    "category": "Professional Elective",
+    "type": "Theory",
+    "link": "https://meet.google.com/lookup/bk3idakpko"
+  },
+  {
     "subjectName": "Information Storage",
     "subjectCode": "18CSE360T",
     "subjectSlot": "D",
@@ -28,15 +38,5 @@
     "category": "Professional Elective",
     "type": "Theory",
     "link": "https://meet.google.com/lookup/c727on3jk5"
-  },
-  {
-    "subjectName": "Neuro Fuzzy and Genetic Programming",
-    "subjectCode": "18CSE352T",
-    "subjectSlot": "D",
-    "teacher": "Ms.M.Harini",
-    "teacherCode": 102230,
-    "category": "Professional Elective",
-    "type": "Theory",
-    "link": "https://meet.google.com/lookup/bk3idakpko"
   }
 ]
