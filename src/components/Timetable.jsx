@@ -30,6 +30,9 @@ const useStyles = makeStyles({
   teacher: {
     marginBottom: 12,
   },
+  space: {
+    marginLeft: 5,
+  },
 });
 const Timetable = () => {
   let location = useLocation();
@@ -118,10 +121,10 @@ const Timetable = () => {
                 </Typography>
                 <Typography variant="h5" component="h2">
                   {tt.subjectName}
-                  <span>({tt.subjectCode})</span>
+                  <span className={classes.space}>({tt.subjectCode})</span>
                 </Typography>
                 <Typography className={classes.teacher} color="textSecondary">
-                  {tt.teacher} ({tt.teacherCode})
+                  {tt.teacher} <span>({tt.teacherCode})</span>
                 </Typography>
                 <Typography variant="body2" component="p">
                   <span className="subject-details">{tt.category}</span>

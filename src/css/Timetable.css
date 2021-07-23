@@ -22,8 +22,9 @@
   margin-top: 20px;
   border-radius: 10px;
   padding: 5px 10px 15px 10px;
-  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   margin: 20px auto 0;
+  border: none;
 }
 .timetable button {
   position: relative;
@@ -39,12 +40,16 @@
   max-width: 480px;
 }
 .timetable .github {
+  display: none;
   position: absolute;
-  right: 20px;
-  top: 32px;
+  right: 10px;
+  top: 10px;
+  padding: 4px 5px 5px;
+  border-radius: 50%;
+  background: var(--nav);
 }
 .timetable .github svg {
-  fill: var(--nav) !important;
+  fill: #fff !important;
 }
 .timetable .slot {
   position: absolute;
@@ -62,6 +67,9 @@
     right: 30px;
     top: 10px;
     font-size: 30px;
+  }
+  .timetable .github {
+    display: block;
   }
 }
 @media (max-width: 450px) {

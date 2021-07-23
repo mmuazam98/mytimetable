@@ -1,5 +1,15 @@
 [
   {
+    "subjectName": "Data Mining and Analytics",
+    "subjectCode": "18CSE355T",
+    "subjectSlot": "B",
+    "teacher": "Ms.Ida Seraphim",
+    "teacherCode": 101562,
+    "category": "Professional Elective",
+    "type": "Theory",
+    "link": "https://meet.google.com/lookup/c727on3jk5"
+  },
+  {
     "subjectName": "Digital Image Processing",
     "subjectCode": "18CSE353J",
     "subjectSlot": "B",
@@ -27,16 +37,6 @@
     "teacherCode": 101925,
     "category": "Professional Elective",
     "type": "Theory",
-    "link": "https://meet.google.com/lookup/cjipifyggn"
-  },
-  {
-    "subjectName": "Data Mining and Analytics",
-    "subjectCode": "18CSE355T",
-    "subjectSlot": "B",
-    "teacher": "Ms.Ida Seraphim",
-    "teacherCode": 101562,
-    "category": "Professional Elective",
-    "type": "Theory",
-    "link": "https://meet.google.com/lookup/c727on3jk5"
+    "link": "https://meet.google.com/cjipifyggn"
   }
 ]
