@@ -26,36 +26,17 @@
   [
     {
       "slot": "9:00 - 10:40",
-      "subjectName": "Data Mining and Analytics",
-      "subjectCode": "18CSE355T",
-      "subjectSlot": "B",
-      "teacher": "Ms.Ida Seraphim",
-      "teacherCode": 101562,
-      "category": "Professional Elective",
-      "type": "Theory",
-      "link": "https://meet.google.com/lookup/c727on3jk5"
+      "subjectSlot": "B"
     },
     {
       "slot": "10:50 - 12:30",
-      "subjectName": "Smart Sensor Systems",
-      "subjectCode": "18NTO308T",
-      "subjectSlot": "G",
-      "teacher": "Dr. M. Renilkumar",
-      "teacherCode": 102507,
-      "category": "Open Elective",
-      "type": "Theory",
-      "link": "https://meet.google.com/lookup/e3riecd3ev"
+
+      "subjectSlot": "G"
     },
     {
       "slot": "1:20 - 2:10",
-      "subjectName": "Neuro Fuzzy and Genetic Programming",
-      "subjectCode": "18CSE352T",
-      "subjectSlot": "D",
-      "teacher": "Ms.M.Harini",
-      "teacherCode": 102230,
-      "category": "Professional Elective",
-      "type": "Theory",
-      "link": "https://meet.google.com/lookup/bk3idakpko"
+
+      "subjectSlot": "D"
     },
     {
       "slot": "2:10 - 3:50",
@@ -85,7 +66,7 @@
       "slot": "11:40 - 12:30",
       "subjectName": "Indian Traditional Knowledge",
       "subjectCode": "18LEM109T",
-      "subjectSlot": "D",
+      "subjectSlot": "D1",
       "teacher": "Dr.S.Babu",
       "teacherCode": 102457,
       "category": "Mandatory",
@@ -94,14 +75,7 @@
     },
     {
       "slot": "1:20 - 2:10",
-      "subjectName": "Data Mining and Analytics",
-      "subjectCode": "18CSE355T",
-      "subjectSlot": "B",
-      "teacher": "Ms.Ida Seraphim",
-      "teacherCode": 101562,
-      "category": "Professional Elective",
-      "type": "Theory",
-      "link": "https://meet.google.com/lookup/c727on3jk5"
+      "subjectSlot": "B"
     },
     {
       "slot": "2:10 - 3:50",
@@ -118,36 +92,15 @@
   [
     {
       "slot": "9:00 - 10:40",
-      "subjectName": "Neuro Fuzzy and Genetic Programming",
-      "subjectCode": "18CSE352T",
-      "subjectSlot": "D",
-      "teacher": "Ms.M.Harini",
-      "teacherCode": 102230,
-      "category": "Professional Elective",
-      "type": "Theory",
-      "link": "https://meet.google.com/lookup/bk3idakpko"
+      "subjectSlot": "D"
     },
     {
       "slot": "10:50 - 11:40",
-      "subjectName": "Data Mining and Analytics",
-      "subjectCode": "18CSE355T",
-      "subjectSlot": "B",
-      "teacher": "Ms.Ida Seraphim",
-      "teacherCode": 101562,
-      "category": "Professional Elective",
-      "type": "Theory",
-      "link": "https://meet.google.com/lookup/c727on3jk5"
+      "subjectSlot": "B"
     },
     {
       "slot": "1:20 - 2:10",
-      "subjectName": "Smart Sensor Systems",
-      "subjectCode": "18NTO308T",
-      "subjectSlot": "G",
-      "teacher": "Dr. M. Renilkumar",
-      "teacherCode": 102507,
-      "category": "Open Elective",
-      "type": "Theory",
-      "link": "https://meet.google.com/lookup/e3riecd3ev"
+      "subjectSlot": "G"
     },
     {
       "slot": "2:10 - 3:00",

@@ -69,15 +69,23 @@ const Timetable = () => {
       console.log(timetable);
       setTimeTable(Timetable);
     } else {
-      const Timetable = batch2[dayOrder - 1];
+      const Timetable = batch2[dayOrder - 1].concat();
       Timetable.forEach((e, index) => {
         if (e.subjectSlot === "B") {
           const updatedSlot = { ...e, ...pe1[0] };
           Timetable[index] = updatedSlot;
         }
+        if (e.subjectSlot === "D") {
+          const updatedSlot = { ...e, ...pe2[0] };
+          Timetable[index] = updatedSlot;
+        }
+        if (e.subjectSlot === "G") {
+          const updatedSlot = { ...e, ...oe1[0] };
+          Timetable[index] = updatedSlot;
+        }
       });
-      setTimeTable(Timetable);
       console.log(timetable);
+      setTimeTable(Timetable);
     }
   };
   useEffect(() => {
