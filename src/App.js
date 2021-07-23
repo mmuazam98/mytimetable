@@ -8,7 +8,7 @@ const App = () => {
   return (
     <Router>
       <Switch>
-        <Route path="/">
+        <Route path="*" exact>
           <Navigation />
           <Timetable />
           <MobileNavigation />
