@@ -1,6 +1,6 @@
 .timetable .container {
   margin: 100px auto 50px;
-  max-width: 60rem;
+  max-width: 800px;
 }
 .timetable .container .subject-details {
   margin: 0 8px;
@@ -17,6 +17,7 @@
   border-radius: 10px;
   padding: 5px 10px 15px 10px;
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+  margin: 20px auto 0;
 }
 .timetable button {
   position: relative;
