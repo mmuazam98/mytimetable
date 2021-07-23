@@ -1,5 +1,14 @@
 import React, { useState, useEffect } from "react";
 import "../css/Timetable.css";
+import batch1 from "../timetable/batch1.json";
+import batch2 from "../timetable/batch2.json";
+import ChooseBatch from "./ChooseBatch";
+import ChooseProfessionalElectiveB from "./ChooseProfessionalElectiveB";
+import ChooseProfessionalElectiveD from "./ChooseProfessionalElectiveD";
+import peb from "../timetable/professionalelectives.json";
+import ped from "../timetable/professionalelectives.json";
+import oe from "../timetable/openelectives.json";
+import ChooseOpenElective from "./ChooseOpenElective";
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardActions from "@material-ui/core/CardActions";
@@ -7,9 +16,6 @@ import CardContent from "@material-ui/core/CardContent";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import { useLocation } from "react-router-dom";
-import batch1 from "../timetable/batch1.json";
-import batch2 from "../timetable/batch2.json";
-import ChooseBatch from "./ChooseBatch";
 import GitHubIcon from "@material-ui/icons/GitHub";
 
 const useStyles = makeStyles({
@@ -29,12 +35,50 @@ const Timetable = () => {
   let location = useLocation();
   const [timetable, setTimeTable] = useState([]);
   const showTimetable = () => {
+    const bslot = localStorage.getItem("currPE1") || "18CSE355T";
+    const dslot = localStorage.getItem("currPE2") || "18CSE352T";
+    const gslot = localStorage.getItem("currOE") || "18NTO308T";
+    const pe1 = peb.filter((p) => {
+      return p.subjectCode === bslot;
+    });
+    const pe2 = ped.filter((p) => {
+      return p.subjectCode === dslot;
+    });
+    const oe1 = oe.filter((o) => {
+      return o.subjectCode === gslot;
+    });
     const batch = parseInt(localStorage.getItem("batch")) || 1;
     const dayOrder = parseInt(location.pathname[1]) || 1;
-    console.log(dayOrder);
-    console.log("Test");
-    if (batch === 1) setTimeTable(batch1[dayOrder - 1]);
-    else setTimeTable(batch2[dayOrder - 1]);
+    console.log(bslot, dslot, pe2);
+    if (batch === 1) {
+      const Timetable = batch1[dayOrder - 1].concat();
+      Timetable.forEach((e, index) => {
+        if (e.subjectSlot === "B") {
+          const updatedSlot = { ...e, ...pe1[0] };
+          Timetable[index] = updatedSlot;
+        }
+        if (e.subjectSlot === "D") {
+          const updatedSlot = { ...e, ...pe2[0] };
+          Timetable[index] = updatedSlot;
+        }
+        if (e.subjectSlot === "G") {
+          const updatedSlot = { ...e, ...oe1[0] };
+          Timetable[index] = updatedSlot;
+        }
+      });
+      console.log(timetable);
+      setTimeTable(Timetable);
+    } else {
+      const Timetable = batch2[dayOrder - 1];
+      Timetable.forEach((e, index) => {
+        if (e.subjectSlot === "B") {
+          const updatedSlot = { ...e, ...pe1[0] };
+          Timetable[index] = updatedSlot;
+        }
+      });
+      setTimeTable(Timetable);
+      console.log(timetable);
+    }
   };
   useEffect(() => {
     showTimetable();
@@ -45,12 +89,18 @@ const Timetable = () => {
   return (
     <div className="timetable">
       <div className="container">
-        <ChooseBatch showTimetable={showTimetable} />
+        <div className="options">
+          <ChooseBatch showTimetable={showTimetable} />
+          <ChooseProfessionalElectiveB showTimetable={showTimetable} />
+          <ChooseProfessionalElectiveD showTimetable={showTimetable} />
+          <ChooseOpenElective showTimetable={showTimetable} />
+        </div>
         <div className="github">
           <a href="https://github.com/mmuazam98/mytimetable" target="_blank" rel="noreferrer">
             <GitHubIcon />
           </a>
         </div>
+        {console.log(timetable)}
         {timetable.map((tt, index) => {
           return (
             <Card className={classes.root} variant="outlined" key={index}>

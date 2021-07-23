@@ -13,3 +13,20 @@ body {
 :root {
   --nav: #9381ff;
 }
+.MuiFormLabel-root {
+  background-color: #f8f7ff;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+.MuiInputBase-formControl {
+  max-width: 200px;
+}
+@media (max-width: 576px) {
+  .MuiInputBase-formControl {
+    max-width: 120px;
+  }
+  .MuiFormLabel-root {
+    max-width: 120px;
+  }
+}

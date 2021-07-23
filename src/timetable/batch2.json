@@ -159,6 +159,17 @@
       "category": "Basic Science",
       "type": "Theory",
       "link": "https://meet.google.com/lookup/glq7j45ejj"
+    },
+    {
+      "slot": "3:00 - 3:50",
+      "subjectName": "MOOC/Seminar/IT",
+      "subjectCode": "18CSP101L",
+      "subjectSlot": "P14",
+      "teacher": "Dr.S.Babu",
+      "teacherCode": 102457,
+      "category": "Project Course",
+      "type": "Practical",
+      "link": "https://meet.google.com/efazmcotvg"
     }
   ],
   [
