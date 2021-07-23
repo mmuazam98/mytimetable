@@ -24,6 +24,7 @@ const MobileNavigation = () => {
         list[i].className = "list active";
       };
     }
+    // eslint-disable-next-line
   }, []);
   return (
     <div className="bottom-nav">
