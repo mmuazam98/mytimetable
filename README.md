@@ -2,9 +2,10 @@
 
 Tired of opening the Excel sheet and going to GCR for the link again and again? Here's a solution that might help in making things easier for you. Just open it and choose your batch and electives and you're all set for this semester.
 
-Website: <a href="https://bit.ly/cseb1">`bit.ly/cseb1`</a>
-
-<p align="center">  <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>   <img alt="Material UI" src="https://img.shields.io/badge/materialui-%230081CB.svg?style=for-the-badge&logo=material-ui&logoColor=white"/></p>
+<h3>Website: <a href="https://bit.ly/cseb1">bit.ly/cseb1</a></h3> 
+<p align="center">Tech Stack used: </p>
+<p align="center"> 
+ <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>   <img alt="Material UI" src="https://img.shields.io/badge/materialui-%230081CB.svg?style=for-the-badge&logo=material-ui&logoColor=white"/></p>
 
 # Professional Electives (B Slot)
 
@@ -30,12 +31,12 @@ Website: <a href="https://bit.ly/cseb1">`bit.ly/cseb1`</a>
 
 # Mobile
 
-1. Open the website in Google Chrome and choose this option. <br><br>
-   <img src="./Screenshots/ss2.jpeg" width="45%"/>
-2. On your homescreen you will be able to see this PWA, now you don't have to open the link in your browser again and again, you just have to click on this icon and you'll be redirected the web application. <br><br>
-   <img src="./Screenshots/ss3.jpeg" width="45%" />
-3. Cool, you're done. Now your timetable is just one click away.<br><br>
-   <img src="./Screenshots/ss.jpeg" width="45%" /> <br><br>
+- Open the website in Google Chrome and choose this option. <br><br>
+  <img src="./Screenshots/ss2.jpeg" width="250" height="500"/>
+- On your homescreen you will be able to see this PWA, now you don't have to open the link in your browser again and again, you just have to click on this icon and you'll be redirected to the web application. <br><br>
+  <img src="./Screenshots/ss3.jpeg" width="250" height="500" />
+- Cool, you're done. Now your timetable is just one click away.<br><br>
+  <img src="./Screenshots/ss.jpeg" width="250" height="500"/> <br><br>
 
 # Can't find your electives?
 
