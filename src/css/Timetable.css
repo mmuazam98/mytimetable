@@ -57,6 +57,7 @@
   right: 30px;
   top: 20px;
   font-size: 40px;
+  text-transform: uppercase;
 }
 @media (max-width: 767px) {
   .timetable .container {
