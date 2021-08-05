@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer>
       <a href="https://github.com/mmuazam98/mytimetable" target="_blank" rel="noreferrer">
-        <GitHubIcon />
+        Contribute now <GitHubIcon />
       </a>
     </footer>
   );
