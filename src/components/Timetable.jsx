@@ -52,7 +52,6 @@ const Timetable = () => {
     });
     const batch = parseInt(localStorage.getItem("batch")) || 1;
     const dayOrder = parseInt(location.pathname[1]) || 1;
-    console.log(bslot, dslot, pe2);
     if (batch === 1) {
       const Timetable = batch1[dayOrder - 1].concat();
       Timetable.forEach((e, index) => {
@@ -69,7 +68,6 @@ const Timetable = () => {
           Timetable[index] = updatedSlot;
         }
       });
-      console.log(timetable);
       setTimeTable(Timetable);
     } else {
       const Timetable = batch2[dayOrder - 1].concat();
@@ -87,7 +85,6 @@ const Timetable = () => {
           Timetable[index] = updatedSlot;
         }
       });
-      console.log(timetable);
       setTimeTable(Timetable);
     }
   };

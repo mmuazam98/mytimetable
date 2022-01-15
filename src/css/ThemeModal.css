@@ -1,0 +1,72 @@
+.theme-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #f8f7ff;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  padding: 1.5em;
+  border-radius: 10px;
+  min-width: 400px;
+  max-height: 80vh;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: var(--nav) rgb(230, 230, 230);
+}
+@media (max-width: 440px) {
+  .theme-modal {
+    min-width: 380px;
+  }
+}
+@media (max-width: 390px) {
+  .theme-modal {
+    min-width: 330px;
+  }
+}
+.modal-title {
+  font-size: 1rem;
+  padding-left: 3px;
+  font-weight: 600;
+  color: var(--nav);
+}
+.modal-title svg {
+  margin-left: 5px;
+  font-size: 18px;
+}
+.theme-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 20;
+}
+.theme-icon svg {
+  cursor: pointer;
+  border-radius: 100%;
+  font-size: 40px;
+  padding: 5px;
+  background-color: var(--nav);
+  color: white;
+  transition: all 0.2s;
+}
+.theme-icon svg:hover {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+.theme {
+  position: relative;
+  padding: 5px 3px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.theme:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.theme svg {
+  position: absolute;
+  right: 3px;
+  color: var(--nav);
+  top: 50%;
+  transform: translateY(-50%);
+}

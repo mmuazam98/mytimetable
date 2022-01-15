@@ -4,9 +4,11 @@ import Navigation from "./components/Navigation";
 import MobileNavigation from "./components/MobileNavigation";
 import Timetable from "./components/Timetable";
 import Footer from "./components/Footer";
+import ThemeModal from "./components/ThemeModal";
 const App = () => {
   return (
     <Router>
+      <ThemeModal />
       <Switch>
         <Route path="*" exact>
           <Navigation />

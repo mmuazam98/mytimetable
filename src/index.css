@@ -10,8 +10,71 @@ body {
   background: #f8f7ff;
   /* overflow: auto !important; */
 }
-:root {
+.default {
   --nav: #9381ff;
+}
+.aether {
+  --nav: crimson;
+}
+.bento {
+  --nav: #2d394d;
+}
+.bingsu {
+  --nav: #b8a7aa;
+}
+.blueberrydark {
+  --nav: #212b42;
+}
+.blueberrylight {
+  --nav: #dae0f5;
+}
+.botanical {
+  --nav: #7b9c98;
+}
+.bouquet {
+  --nav: #173f35;
+}
+.cafe {
+  --nav: #ceb18d;
+}
+.carbon {
+  --nav: #141221;
+}
+.comfy {
+  --nav: #4a5b6e;
+}
+.darling {
+  --nav: #ffb4bb;
+}
+.deku {
+  --nav: #058b8c;
+}
+.dev {
+  --nav: #1b2028;
+}
+.ezmode {
+  --nav: #0068c6;
+}
+.honey {
+  --nav: #f2aa00;
+}
+.joker {
+  --nav: #1a0e25;
+}
+.laser {
+  --nav: #221b44;
+}
+.menthol {
+  --nav: #00c18c;
+}
+.miami {
+  --nav: #f35588;
+}
+.nebula {
+  --nav: #132237;
+}
+.vscode {
+  --nav: #1e1e1e;
 }
 .MuiFormLabel-root {
   background-color: #f8f7ff;
